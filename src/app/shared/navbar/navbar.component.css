@@ -56,3 +56,6 @@ li a {
 .social-icons a:hover {
   background-color: #3f4c6b;
 }
+hr {
+  border-top: 1px solid grey;
+}
