@@ -31,3 +31,7 @@ li a {
     padding-bottom: 10px;
   }
 }
+
+nav {
+  z-index: 1030;
+}
