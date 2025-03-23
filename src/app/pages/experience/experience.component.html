@@ -1,0 +1,35 @@
+<div class="bg-custom">
+<div class="container my-5">
+  <h2 class="fw-bold">Experience</h2>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h5 class="fw-bold mb-4">Education</h5>
+      <div class="timeline">
+        <div class="timeline-item" *ngFor="let edu of education">
+          <div class="dot"></div>
+          <div class="timeline-content">
+            <h6 class="fw-bold">{{ edu.title }}</h6>
+            <p class="text-muted mb-1"><strong>{{ edu.years }}</strong></p>
+            <p class="mb-1"><strong>{{ edu.place }}</strong></p>
+            <p class="text-secondary small">{{ edu.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h5 class="fw-bold mb-4">Professional Experience</h5>
+      <div class="timeline">
+        <div class="timeline-item" *ngFor="let exp of experience">
+          <div class="dot"></div>
+          <div class="timeline-content">
+            <h6 class="fw-bold">{{ exp.title }}</h6>
+            <p class="text-muted mb-1"><strong>{{ exp.years }}</strong></p>
+            <p class="mb-1"><strong>{{ exp.place }}</strong></p>
+            <p class="text-secondary small">{{ exp.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

@@ -7,13 +7,15 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import {NgOptimizedImage} from "@angular/common";
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ExperienceComponent } from './pages/experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ExperienceComponent
   ],
     imports: [
         BrowserModule,
